@@ -64,6 +64,8 @@ function App() {
     return <div className="app" style={{overflowY: isOpen ? 'hidden' : 'auto'}}>
         <Helmet>
             <link rel="icon" href={mode ? dark : light} />
+            <title>GABE MEDIA</title>
+            <meta name="description" content="GABE MEDIA - Погружаем в мир стриминга и киберспорта" />
         </Helmet>
         <div className={`app-content ${isOpen ? 'blur' : ''}`}>
 
