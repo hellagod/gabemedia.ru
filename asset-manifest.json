@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.e686c0b5.css",
-    "main.js": "/static/js/main.1830bc28.js",
+    "main.js": "/static/js/main.e897c5cc.js",
     "static/media/ltw.png": "/static/media/ltw.28be9402df899c52e176.png",
     "static/media/csgo.png": "/static/media/csgo.78db7c8720805e130f2f.png",
     "static/media/good.png": "/static/media/good.a66d25e9174fe9e659d7.png",
     "static/media/trav.png": "/static/media/trav.6ef3f15b5c05b5bd187d.png",
     "static/media/ybic.png": "/static/media/ybic.42e10e2012ee2e80db66.png",
     "static/media/stray228.png": "/static/media/stray228.1a299ddeb242fabfbf79.png",
-    "static/media/logo.png": "/static/media/logo.5793eb872129a8072503.png",
     "static/media/footer-logo.png": "/static/media/footer-logo.ae815ef640bdc8a593eb.png",
     "static/media/hello-line.png": "/static/media/hello-line.914dbb067c7d7e96478d.png",
     "index.html": "/index.html",
@@ -20,10 +19,10 @@
     "static/media/arrow-right.svg": "/static/media/arrow-right.d0157095410c1f6cc537738eb4f72e18.svg",
     "static/media/arrow-right-up.svg": "/static/media/arrow-right-up.ef1cb3bc3615c8bcfed0b268d4d40a35.svg",
     "main.e686c0b5.css.map": "/static/css/main.e686c0b5.css.map",
-    "main.1830bc28.js.map": "/static/js/main.1830bc28.js.map"
+    "main.e897c5cc.js.map": "/static/js/main.e897c5cc.js.map"
   },
   "entrypoints": [
     "static/css/main.e686c0b5.css",
-    "static/js/main.1830bc28.js"
+    "static/js/main.e897c5cc.js"
   ]
 }
