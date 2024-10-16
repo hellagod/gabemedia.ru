@@ -1,4 +1,4 @@
-import gabeLogoImg from './icons/header-logo.png'
+import gabeLogoImg from './icons/logo.png'
 import gabeLogoFooterImg from './icons/footer-logo.png'
 import gabeTickerImg from './icons/ticker-gabe.png'
 import helloLineImg from './icons/hello-line.png'
