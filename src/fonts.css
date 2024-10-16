@@ -208,7 +208,12 @@
     color: var(--wine);
     font-size: 45px;
 }
-
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: var(--black);
+}
 
 .special-title {
     color: var(--white);
@@ -290,8 +295,9 @@
     line-height: normal;
 }
 
-.feedback-form-politics > span > span {
+.feedback-form-politics > span > span > a {
     font-weight: 600;
+    color: var(--white);
 }
 
 .news-title {

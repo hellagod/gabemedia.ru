@@ -18,6 +18,10 @@
     transition: color 0.3s;
     color: var(--black);
 }
+.news-title > a{
+    transition: color 0.3s;
+    color: var(--brat);
+}
 
 .news-title:hover {
     transition: color 0.3s;

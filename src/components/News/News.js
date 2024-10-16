@@ -4,7 +4,7 @@ import data from "../../static/data";
 import NewArrow from "./NewArrow";
 
 
-let {news: {title, subTitle}} = data
+let {news: {title, subTitle, href}} = data
 export default function News() {
     const [hovered, setHovered] = useState(false)
     return <div className={`news ${hovered ? 'hovered' : ''}`}>
@@ -13,11 +13,15 @@ export default function News() {
             <NewArrow color={hovered ? '#090909' : '#CCF304'}/>
         </div>
         <div className={`news-subtitle ${hovered ? 'hovered' : ''}`}>{subTitle}</div>
-        <div className="news-title"
-             onMouseEnter={() => setHovered(true)}
-             onMouseLeave={() => setHovered(false)}>
-            {title}
-        </div>
+
+            <div className="news-title"
+                 onMouseEnter={() => setHovered(true)}
+                 onMouseLeave={() => setHovered(false)}>
+                <a href={href}>
+                {title}
+                </a>
+            </div>
+
 
     </div>
 }

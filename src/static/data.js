@@ -204,13 +204,14 @@ let data = {
             phone: "Номер телефона",
             email: "Почта",
             submit: "Обсудить проект",
-            politics: <span>Нажимая на&nbsp;кнопку, вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<span>политикой конфиденциальности</span></span>
+            politics: <span>Нажимая на&nbsp;кнопку, вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;  <span><a href='/politics'>политикой конфиденциальности</a></span></span>
         }
     },
     news:{
         subTitle: <span>Хочешь быть в теме игр?<br/>
             "Подпишись на горячие новости от Габена!</span>,
-        title: "GABE NEWS"
+        title: "GABE NEWS",
+        href: "https://t.me/gabenews"
     },
     footer:{
         logo: {
@@ -219,6 +220,7 @@ let data = {
         },
         menu: [{name: "О нас"}, {name: "Для блогеров"}, {name: "для брендов"},{name: 'Команда'}],
         politic: {
+            href: '/politics',
             name: "Политика конфиденциальности",
             email: "gabemedia@gmail.com"
         },

@@ -21,14 +21,14 @@ export default function SideMenu({isOpen, setIsOpen}) {
                     {mi.name}
                 </div>)}
             </div>
-            <div className="side-menu-icons">
-                <div className="side-menu-icon">
-                    <TelegramIcon/>
-                </div>
-                <div className="side-menu-icon">
-                    <VKIcon/>
-                </div>
-            </div>
+            {/*<div className="side-menu-icons">*/}
+            {/*    <div className="side-menu-icon">*/}
+            {/*        <TelegramIcon/>*/}
+            {/*    </div>*/}
+            {/*    <div className="side-menu-icon">*/}
+            {/*        <VKIcon/>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </div>
         <div className="header-button" style={{top: `${height-92}px` }}>
             <div onClick={()=>button.scroll()} className="header-button-name">

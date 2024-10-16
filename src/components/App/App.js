@@ -64,9 +64,9 @@ function App() {
     return <div className="app" style={{overflowY: isOpen ? 'hidden' : 'auto'}}>
         <Helmet>
             <link rel="icon" href={mode ? dark : light} />
-            {/* Other meta tags ... */}
         </Helmet>
         <div className={`app-content ${isOpen ? 'blur' : ''}`}>
+
             <Hello helloRef={helloRef}/>
             <Description descRef={descRef}/>
             <Offer isBlogger={isBlogger} setIsBlogger={setIsBlogger} offerRef={offerRef}/>

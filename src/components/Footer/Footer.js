@@ -2,8 +2,8 @@ import React from 'react';
 import './Footer.css';
 import data from "../../static/data";
 import FooterBack from "./FooterBack";
-
 let {footer: {politic, logo, menu, copyR}, commonIcons: {TelegramIcon, VKIcon}} = data
+
 
 export default function Footer() {
     return <div className="footer">
@@ -19,20 +19,24 @@ export default function Footer() {
                 }}>
                     {m.name}
                 </div>)}
-                <div className="footer-up-menu-icons">
-                    <div><TelegramIcon/></div>
-                    <div><VKIcon/></div>
-                </div>
+                {/*<div className="footer-up-menu-icons">*/}
+                {/*    <div><TelegramIcon/></div>*/}
+                {/*    <div><VKIcon/></div>*/}
+                {/*</div>*/}
             </div>
         </div>
         <div className="footer-down">
             <div className="footer-down-politics">
-                <div>
-                    {politic.name}
-                </div>
-                <div>
-                    {politic.email}
-                </div>
+                <a href={politic.href}>
+                    <div>
+                        {politic.name}
+                    </div>
+                </a>
+                <a href="mailto:info@gabemedia.ru">
+                    <div>
+                        {politic.email}
+                    </div>
+                </a>
             </div>
             <div className="footer-down-copyr">
                 {copyR}
