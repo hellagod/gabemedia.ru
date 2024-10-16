@@ -1,0 +1,174 @@
+.work-style {
+    background: var(--black);
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.work-style-card {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-content: center;
+    align-items: center;
+    padding: 80px 50px 80px 50px;
+    gap: 110px
+}
+
+.work-style-steps {
+    max-width: 1180px;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.border-line {
+    height: 1px;
+    background-color: var(--black);
+    width: 100%;
+}
+
+.work-style-step {
+    gap: 30px;
+    max-width: 1180px;
+    height: 116px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+.work-style-step-text {
+    gap: 30px;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-style-step > div {
+    width: fit-content;
+}
+
+.work-style-step > .work-style-step-text > div:nth-child(2) {
+    transition-property: border-radius, max-width, height, background-color;
+    transition-duration: 0.2s, 0.3s, 0.3s, 0.2s;
+    transition-delay: 0s, 0s, 0s, 0.1s;
+    max-width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50% 50%;
+    background: var(--black);
+    align-self: center;
+    margin-right: 50px;
+}
+
+.work-style-step:hover > .work-style-step-text > div:nth-child(2) {
+    transition-property: border-radius, max-width, height, background-color;
+    transition-duration: 0.2s, 0.2s, 0.2s, 0.05s;
+    transition-delay: 0.1s, 0.05s, 0.1s, 0.1s;
+    /*white-space: nowrap;*/
+    max-width: 590px;
+    height: 112px;
+    overflow: hidden;
+    border-radius: 0;
+    border: 0 solid var(--white);
+    background: var(--white);
+    color: var(--black);
+
+}
+
+.work-style-step > .work-style-step-text > div:nth-child(1) {
+    height: 112px;
+    color: var(--black);
+    width: max-content;
+    animation: colorBack 0.3s ease-in-out forwards;
+    transition-property: font-size;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+
+.work-style-step:hover > .work-style-step-text > div:nth-child(1) {
+    width: 500px;
+    animation: colorTo 0.3s ease-in-out forwards;
+}
+
+@keyframes colorTo {
+    0% {
+        width: 100%;
+        color: var(--black);
+    }
+    40% {
+        width: 100%;
+        color: var(--white);
+    }
+    60% {
+        width: 500px;
+        color: var(--white);
+    }
+    100% {
+        color: var(--wine);
+    }
+}
+
+@keyframes colorBack {
+    0% {
+        color: var(--wine);
+    }
+    40% {
+        width: 500px;
+        color: var(--white);
+    }
+    60% {
+        width: 100%;
+        color: var(--white);
+    }
+    100% {
+        width: 100%;
+        color: var(--black);
+    }
+}
+
+
+@media (max-width: 961px) {
+    .work-style-card{
+        padding: 60px 20px 100px 20px;
+    }
+    .work-style-step {
+        flex-direction: column;
+        pointer-events: none;
+        height: fit-content;
+        gap: 15px;
+    }
+
+    .work-style-step-text {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .work-style-step > .work-style-step-text > div:nth-child(1) {
+        max-width: 400px;
+        animation: colorTo 0s ease-in-out forwards;
+        height: fit-content;
+    }
+
+    .work-style-step > .work-style-step-text > div:nth-child(2) {
+        max-width: 100%;
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        margin: 0;
+        height: fit-content;
+        align-self: flex-start;
+
+    }
+
+}

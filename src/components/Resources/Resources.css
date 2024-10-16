@@ -1,0 +1,26 @@
+.resources{
+    width: 100%;
+    background: linear-gradient(#FCFCFC 68.68%, #D9D9D9 99.29%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resources > svg{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.resources-title{
+    margin: 225px 50px 257px 50px;
+    max-width: 1180px;
+    z-index: 3;
+}
+
+
+@media (max-width:961px) {
+    .resources-title{
+        margin: 213px 18px 257px 22px;
+    }
+
+}

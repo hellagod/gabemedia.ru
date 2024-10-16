@@ -1,0 +1,520 @@
+.header {
+    color: var(--white)
+}
+
+.header-menu-item {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    transition: all 0.15s;
+    font-weight: 600;
+}
+
+
+.header-menu-item:hover {
+    cursor: pointer;
+    transition: color 0.15s;
+    color: var(--brat);
+}
+
+
+.header-logo-name {
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+}
+
+
+.header-button {
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+.hello-text {
+    color: var(--white);
+    font-size: 80px;
+    font-family: Unbounded, sans-serif;
+    font-weight: 600;
+    line-height: 94px;
+}
+
+.hello-for {
+    color: var(--white);
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.hello-about {
+    color: var(--white);
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
+.hello-button {
+    color: var(--brat);
+    font-size: 22px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+.hello-button:hover {
+    color: var(--black);
+}
+
+.description-card-main-text {
+    color: var(--white);
+    font-size: 30px;
+    font-family: Unbounded, sans-serif;
+    font-weight: 400;
+}
+
+.description-card-main-text > span {
+    color: var(--brat);
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.offer-title {
+    color: var(--black);
+    text-align: center;
+    font-family: Unbounded, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.description-card-benefit-title {
+    white-space: nowrap;
+    color: var(--brat);
+    font-family: Unbounded, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.description-card-benefit-text {
+    color: var(--white);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.offer-toggle {
+    color: var(--black);
+    font-family: Unbounded, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.offer-text {
+    font-family: Unbounded, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.offer-text > span > span {
+    transition: color 0.125s;
+    color: var(--wine);
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.offer-services {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.invisible-font, .invisible-font > span, .invisible-font > span > span, .invisible-font > div {
+    transition: color 0.125s;
+    color: transparent;
+}
+
+.visible-font, .visible-font > span, .visible-font > span > .visible-font > span, .visible-font > div {
+    transition: color 0.125s;
+    color: var(--black);
+}
+
+.resources-title {
+    color: var(--black);
+    text-align: center;
+    font-family: Unbounded, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.resources-title > span > .emphasis {
+    color: var(--wine);
+    font-family: Unbounded, sans-serif;
+    font-weight: 600;
+}
+
+.team-title {
+    color: var(--white);
+    font-family: Unbounded, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.teammate-name {
+    color: var(--black);
+    font-family: Unbounded, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.teammate-statistics-text {
+    color: var(--black);
+    font-family: Montserrat, sans-serif;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.work-style-title {
+    color: var(--black);
+    text-align: center;
+    font-family: Unbounded, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.work-style-step-id {
+    color: var(--black);
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.work-style-step > .work-style-step-text > div:nth-child(1) {
+    color: var(--black);
+    font-family: Unbounded, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.work-style-step > .work-style-step-text > div:nth-child(2) {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.work-style-step:hover > .work-style-step-text > div:nth-child(1) {
+    color: var(--wine);
+    font-size: 45px;
+}
+
+
+.special-title {
+    color: var(--white);
+    text-align: center;
+    font-family: Unbounded, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.special-card-header-title {
+    color: var(--black);
+    font-family: Unbounded, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.special-card-header-id {
+    color: var(--black);
+    font-family: Unbounded, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.special-card-text {
+    color: var(--black);
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.feedback-title {
+    color: var(--white);
+    font-family: Unbounded, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feedback-title > span:nth-child(2) {
+    color: var(--brat)
+}
+
+.feedback-form-input {
+    color: var(--black);
+    font-family: Unbounded, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.validation {
+    color: var(--red);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback-form-politics {
+    color: var(--white);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback-form-politics > span > span {
+    font-weight: 600;
+}
+
+.news-title {
+    transition: color 0.3s;
+    color: var(--brat);
+    font-family: Unbounded, sans-serif;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.news-subtitle {
+    transition: color 0.3s;
+    color: var(--white);
+    text-align: center;
+    font-family: Unbounded, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-up-logo > div {
+    color: var(--black);
+    font-family: Inter, sans-serif;
+    font-size: 134px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123px;
+    width: 460px;
+    text-transform: uppercase;
+}
+
+.footer-up-menu {
+    color: var(--black);
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.footer-up-menu > div:nth-child(-n+4):hover {
+    color: var(--wine);
+    text-decoration-line: underline;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer-down {
+    color: var(--black);
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width: 1360px) {
+    .offer-services {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1301px) {
+    .news-title {
+        font-size: 130px;
+    }
+}
+
+@media (max-width: 1161px) {
+    .news-title {
+        font-size: 105px;
+    }
+}
+
+@media (max-width: 1073px) {
+    .offer-services {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 961px) {
+    .header-logo-name {
+        font-size: 16px;
+    }
+
+    .header-burger {
+        display: block;
+    }
+
+    .hello-text {
+        font-size: 40px;
+        line-height: 38px;
+    }
+
+    .hello-for {
+        font-size: 14px;
+    }
+
+    .hello-about {
+        font-size: 16px;
+    }
+
+    .description-card-main-text {
+        font-size: 20px;
+    }
+
+    .description-card-main-text > span {
+        font-size: 30px;
+    }
+
+    .description-card-benefit-title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .description-card-benefit-text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .offer-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .resources-title {
+        font-size: 30px;
+    }
+
+    .offer-services, .offer-toggle {
+        font-size: 16px;
+    }
+
+    .work-style-title {
+        font-size: 30px;
+        line-height: 30px; /* 100% */
+    }
+
+    .special-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .special-card-header-title {
+        font-size: 20px;
+        line-height: 25px; /* 125% */
+    }
+
+    .special-card-header-id {
+        font-size: 30px;
+    }
+
+    .special-card-text {
+        font-size: 18px;
+    }
+
+    .feedback-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .feedback-form-input {
+        font-size: 18px;
+    }
+
+    .feedback-form-politics {
+        font-size: 10px;
+    }
+
+    .news-title {
+        font-size: 45px;
+    }
+
+    .news-subtitle {
+        font-size: 16px;
+    }
+
+    .work-style-step > .work-style-step-text > div:nth-child(1) {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .work-style-step > .work-style-step-text > div:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .team-title {
+        font-size: 30px;
+        line-height: 30px; /* 100% */
+    }
+
+    .offer-text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .offer-text > span > span {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .footer-up-logo > div {
+        font-size: 57px;
+        line-height: 53px;
+        width: 195px;
+    }
+
+    .footer-up-menu {
+        font-size: 18px;
+    }
+
+    .footer-down {
+        font-size: 16px;
+    }
+
+}

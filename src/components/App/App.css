@@ -1,0 +1,22 @@
+.app{
+    position: relative;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.app-content{
+    transition: filter 0.5s;
+    filter: none;
+}
+
+.blur{
+    transition: filter 0.5s;
+    filter: none;
+}
+
+
+@media (max-width:961px) {
+    .blur{
+        filter: blur(4px);
+    }
+}
