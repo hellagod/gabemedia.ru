@@ -34,6 +34,7 @@
     display: flex;
     gap: 128px;
     width: 1550px;
+    height: 403px;
     left: calc(-775px + 50%);
     justify-content: center;
     top: 90px;
@@ -53,6 +54,7 @@
         width: 775px;
         top: 45px;
         gap: 64px;
+        height: 202px;
         left: calc(-387px + 50%);
     }
 }
