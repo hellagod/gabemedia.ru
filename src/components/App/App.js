@@ -14,7 +14,7 @@ import Feedback from "../Feedback/Feedback";
 import News from "../News/News";
 import Footer from "../Footer/Footer";
 import data from "../../static/data";
-import { Helmet } from "react-helmet";
+import {Helmet} from "react-helmet";
 import dark from '../../static/favicon-dark.png';
 import light from '../../static/favicon.png'
 
@@ -63,9 +63,15 @@ function App() {
     }, [])
     return <div className="app" style={{overflowY: isOpen ? 'hidden' : 'auto'}}>
         <Helmet>
-            <link rel="icon" href={mode ? dark : light} />
+            <link rel="icon" href={mode ? dark : light}/>
             <title>GABE MEDIA</title>
-            <meta name="description" content="GABE MEDIA - Погружаем в мир стриминга и киберспорта" />
+            <meta name="description" content="GABE MEDIA - Погружаем в мир стриминга и киберспорта"/>
+            <meta itemProp="name" content="GABE MEDIA"/>
+            <meta itemProp="description" content="GABE MEDIA - Погружаем в мир стриминга и киберспорта"/>
+            <meta property="og:title" content="GABE MEDIA"/>
+            <meta property="og:description" content="GABE MEDIA - Погружаем в мир стриминга и киберспорта"/>
+            <meta name="twitter:title" content="GABE MEDIA" />
+            <meta name="twitter:description" content="GABE MEDIA - Погружаем в мир стриминга и киберспорта" />
         </Helmet>
         <div className={`app-content ${isOpen ? 'blur' : ''}`}>
 
