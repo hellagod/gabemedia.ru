@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e5cc62c3.css",
-    "main.js": "/static/js/main.f727c46c.js",
+    "main.js": "/static/js/main.1ecb3280.js",
     "static/media/ltw.png": "/static/media/ltw.28be9402df899c52e176.png",
     "static/media/csgo.png": "/static/media/csgo.78db7c8720805e130f2f.png",
     "static/media/good.png": "/static/media/good.a66d25e9174fe9e659d7.png",
@@ -19,10 +19,10 @@
     "static/media/arrow-right.svg": "/static/media/arrow-right.d0157095410c1f6cc537738eb4f72e18.svg",
     "static/media/arrow-right-up.svg": "/static/media/arrow-right-up.ef1cb3bc3615c8bcfed0b268d4d40a35.svg",
     "main.e5cc62c3.css.map": "/static/css/main.e5cc62c3.css.map",
-    "main.f727c46c.js.map": "/static/js/main.f727c46c.js.map"
+    "main.1ecb3280.js.map": "/static/js/main.1ecb3280.js.map"
   },
   "entrypoints": [
     "static/css/main.e5cc62c3.css",
-    "static/js/main.f727c46c.js"
+    "static/js/main.1ecb3280.js"
   ]
 }

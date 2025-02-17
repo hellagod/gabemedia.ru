@@ -22,7 +22,7 @@ export default function Feedback({feedRef}) {
         <FeedbackBack/>
         <div className="feedback-card">
             <Title/>
-            <form action="javascript:void(0);" onSubmit={() => {
+            <form action="javascript:void(0);" onSubmit={async () => {
                 Email.send({
                     SecureToken: "46749110-8a49-42ca-bcfb-1f102f7cedbd",
                     To: "info@gabemedia.ru",
@@ -39,6 +39,25 @@ export default function Feedback({feedRef}) {
                             console.log(message)
                         }
                     });
+
+                try {
+                    const urlEncodedData = new URLSearchParams({name, phone, email}).toString();
+
+                    const res = await fetch('https://gabemedia.ru/info', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+                        },
+                        body: urlEncodedData,
+                    });
+
+                    if (!res.ok) {
+                        throw new Error(`Ошибка сервера: ${res.status}`);
+                    }
+                } catch (err) {
+                    console.log(err)
+                }
+
                 return true
             }} className="feedback-form">
                 <input className="feedback-form-input" value={name} onChange={e => setName(e.target.value)} placeholder={form.name} type="name" required/>
